@@ -1,0 +1,21 @@
+<div class="container-fluid bg-light">
+    <div class="container">
+      <h1>Bem-vindo <br>a FB Motors</h1>
+      <p>Aqui você encontra os melhores carros com os melhores preços!</p>
+      <hr>
+      <div class="row">
+        <div class="col-md-4 mb-3" *ngFor="let carro of carros">
+          <div class="card rouded-3">
+            <img src="{{ carro.imagem }}" class="card-img-top" alt="Imagem do carro">
+            <div class="card-body">
+              <h5 class="card-title">{{ carro.nome }}</h5>
+              <p class="card-text">{{ carro.descricao }}</p>
+              <p class="card-text">R$ {{ carro.preco }}</p>
+              <button (click)="adicionarAoCarrinho(carro)" class="btn btn-primary">Adicionar ao carrinho</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

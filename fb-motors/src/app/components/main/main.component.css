@@ -1,0 +1,22 @@
+.container-fluid{
+    padding: 40px;
+}
+
+h1{
+    width: 600px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 70px;
+    letter-spacing: 10px;
+    color: #222020;
+    margin-bottom: 16px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #222020;
+    margin-bottom: 32px;
+}
