@@ -1,14 +1,14 @@
-# Componentes do projeto:
+## Componentes do projeto:
 
-Brunno de Melo Marques e Igor Fabrício de Almeida Silva
+# Brunno de Melo Marques e Igor Fabrício de Almeida Silva
 
 ## Apresentação:
 
-ntrodução 
+# Introdução 
 
 O projeto desenvolvido é um site de uma loja de venda de carros, implementado em Angular com TypeScript, com o objetivo de oferecer uma interface intuitiva e responsiva para a navegação e compra de veículos. A aplicação foi estruturada para atender aos requisitos mínimos estabelecidos, tanto em termos de funcionalidade quanto de usabilidade, utilizando boas práticas de desenvolvimento com estruturas básicas e funcionalidades restritas. 
 
-Estrutura e Componentes 
+# Estrutura e Componentes 
 
 A aplicação é composta por três componentes principais, seguindo a arquitetura modular do Angular: 
 
@@ -48,7 +48,7 @@ Event Binding: Usado para capturar eventos de interação do usuário, como cliq
 
 Two-way Binding: Implementado no formulário de contato para capturar os dados inseridos pelo usuário. 
 
-Diretivas Estruturais: 
+# Diretivas Estruturais: 
 
 *ngIf para renderizar condicionalmente elementos na interface. 
 
@@ -64,7 +64,7 @@ Pelo menos quatro classes do Bootstrap, como container, row, col, e btn, para es
 
 Estilos adaptativos, assegurando que o site funcione bem em diferentes dispositivos e tamanhos de tela. 
 
-Conclusão 
+# Conclusão 
 
 O site foi projetado para trabalhar os principais pontos vistos na apresentação do projeto trabalhando os conceitos e funcionalidades básicas. É uma boa estrutura de front para ser posteriormente trabalhado e melhorado com a adição de um backend e novas funcionalidade que podem ser mostradas na apresentação do trabalho, como a implementação de um carrinho de compras e a adição de carros cadastrados pela loja em um banco de dados com filtros para procura dos clientes.
 
