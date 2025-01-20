@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-texto">
+                <div class="card-body">
+                    <h1>Confira Nossos Veículos em Oferta!</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-4 mb-3" *ngFor="let carro of carros">
+            <div class="card rouded-3">
+                <img src="{{ carro.imagem }}" class="card-img-top" alt="Imagem do carro">
+                <div class="card-body">
+                    <h5 class="card-title">{{ carro.nome }}</h5>
+                    <p class="card-text">{{ carro.descricao }}</p>
+                    <p class="card-text">R$ {{ carro.preco }}</p>
+                    <button (click)="adicionarAoCarrinho(carro)" class="btn btn-primary">Adicionar ao
+                        carrinho</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

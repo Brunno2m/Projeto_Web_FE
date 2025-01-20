@@ -1,8 +1,10 @@
 :root {
-    --primaryColor: #0d6efd;
-    --secondColor: #6c757d;
-  }
-  
-  body {
-    font-family: Poppins, sans-serif;
-  }
+  --primaryColor: #0d6efd;
+  --secondColor: #6c757d;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+

@@ -1,0 +1,17 @@
+.card-texto {
+    border: none;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    letter-spacing: 10px;
+    color: #222020;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+}

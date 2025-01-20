@@ -8,7 +8,7 @@ import { BackToTopComponent } from './components/back-to-top/back-to-top.compone
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, MainComponent, FooterComponent, BackToTopComponent],
+  imports: [RouterOutlet, HeaderComponent, MainComponent, FooterComponent, BackToTopComponent,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

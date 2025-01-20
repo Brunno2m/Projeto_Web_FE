@@ -10,8 +10,10 @@ import { Component, HostListener } from '@angular/core';
 })
 export class BackToTopComponent {
   showButton: boolean = false;
+  buttonOpacity: string = '0.6'
 
   @HostListener('window:scroll', [])
+
   onWindowScroll() {
     const scrollTop = document.documentElement.scrollTop || document.body.scrollTop || 0;
     this.showButton = scrollTop > 50; // Mostra o botão após 50px de rolagem
@@ -22,5 +24,18 @@ export class BackToTopComponent {
       top: 0,
       behavior: 'smooth' // Rolagem suave
     });
+  }
+
+  mouseOn(){
+    if(this.buttonOpacity === '0.6'){
+      this.buttonOpacity = '1.5';
+    }
+  }
+
+
+  mouseOut(){
+    if(this.buttonOpacity === '1.5'){
+      this.buttonOpacity = '0.6'
+    }
   }
 }
