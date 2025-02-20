@@ -1,0 +1,57 @@
+
+<div class="container d-flex justify-content-left">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="card card-none">
+                <div class="card-body">
+                    <h1> Listagem de Clientes </h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Nome <i class="fas fa-sort"></i></th>
+                <th scope="col">Sobrenome <i class="fas fa-sort"></i></th>
+                <th scope="col">E-mail <i class="fas fa-sort"></i></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let cliente of clientes">
+                <td>{{ cliente.first_name}}</td>
+                <td>{{ cliente.last_name }}</td>
+                <td>{{ cliente.email }}</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>
+<br>
+<br>
+<div class="container d-flex justify-content-left">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card card-none">
+                <div class="card-body">
+                    <h1> Mensagens Recebidas </h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container d-flex justify-content-left">
+    <div class="row">
+        <div class="col-md-12 mb-3" *ngFor="let messenger of messengers">
+            <div class="card card-mensagem bg-light">
+                <div class="card-title">
+                    <h3>{{messenger.name}} - {{messenger.email}}</h3>
+                </div>
+                <div class="card-body">
+                    <p>{{messenger.mensagem}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

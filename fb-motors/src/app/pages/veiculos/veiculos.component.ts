@@ -22,6 +22,5 @@ export class VeiculosComponent {
   adicionarAoCarrinho(carro: any) {
     alert(`${carro.nome} foi adicionado ao carrinho!`);
 
-    // Aqui abaixo segue o código para a implentação da inclusão do carro de interesse cadastrado no banco de dados no carrinho
   }
 }

@@ -13,13 +13,13 @@ import { RouterLink } from '@angular/router';
 export class RecomendacoesComponent {
   carros: any[] = []
 
-  constructor(private carroService: CarrosService) {
+  constructor(private carroService: CarrosService) { // Construtor para chamar o serviço da lista de carros
     this.carros = carroService.getCarros();
   }
 
   isHovered = false
 
-  @HostListener ('mouseenter') onMouseEnter(){
+  @HostListener ('mouseenter') onMouseEnter(){ // HostListener para fazer o efeito 3D dos cards dos carros, quando mouse sai e entra
     this.isHovered = true;
   }
 

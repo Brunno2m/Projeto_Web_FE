@@ -4,6 +4,9 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class CarrosService {
+
+  // Lista dos carros e a função para retornar a lista
+
   carros = [
     {
       nome: 'Corolla Cross',
@@ -17,7 +20,7 @@ export class CarrosService {
       descricao: 'Espaçoso, confortável e elegante.',
       preco: "159.900",
       imagem: 'land.jpg',
-      path: '/land'
+      path: '/landrover'
     },
     {
       nome: 'Fiat Cronos',
